@@ -1,0 +1,73 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <!-- Date and Time -->
+    <TextView
+        android:id="@+id/tvDateTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Senin, 1 Jan - 12:30"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center_vertical"
+        android:paddingBottom="8dp"/>
+
+    <!-- Dropdown for Vehicle -->
+    <Spinner
+        android:id="@+id/spinnerVehicle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"/>
+
+    <!-- Complaint Note -->
+    <EditText
+        android:id="@+id/etComplaintNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Catatan Keluhan"
+        android:background="@android:drawable/edit_text"
+        android:minHeight="100dp"
+        android:gravity="top"
+        android:padding="8dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Add Photo -->
+    <TextView
+        android:id="@+id/tvDocumentTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dokumen Laporan"
+        android:paddingBottom="8dp"/>
+
+    <ImageView
+        android:id="@+id/ivPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_image"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kirim Laporan"
+        android:backgroundTint="@color/design_default_color_primary"
+        android:textColor="@android:color/white"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center" />
+
+</LinearLayout>

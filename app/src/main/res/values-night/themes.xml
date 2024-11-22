@@ -1,0 +1,62 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.LaporDriver" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+    <style name="Theme.LaporDriver" parent="Base.Theme.LaporDriver" />
+
+    <!-- styles.xml -->
+    <style name="heading_1" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/poppins_black</item>
+        <item name="android:textSize">32sp</item> <!-- Minimum size for H1 -->
+    </style>
+
+    <style name="heading_2" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">24sp</item> <!-- Minimum size for H2 -->
+    </style>
+
+    <style name="heading_3" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textSize">20sp</item> <!-- Minimum size for H3 -->
+    </style>
+
+    <style name="heading_4" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">18sp</item> <!-- Minimum size for H4 -->
+    </style>
+
+    <style name="heading_5" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">16sp</item> <!-- Minimum size for H5 -->
+    </style>
+
+    <style name="paragraph_1" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">16sp</item> <!-- Minimum size for P1 -->
+    </style>
+
+    <style name="paragraph_2" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">14sp</item> <!-- Minimum size for P2 -->
+    </style>
+
+    <style name="paragraph_3" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">12sp</item> <!-- Minimum size for P3 -->
+    </style>
+
+    <style name="paragraph_4" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/poppins_light</item>
+        <item name="android:textSize">10sp</item> <!-- Minimum size for P4 -->
+    </style>
+
+    <style name="paragraph_5" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/poppins_light</item>
+        <item name="android:textSize">10sp</item> <!-- Minimum size for P5 -->
+    </style>
+
+</resources>

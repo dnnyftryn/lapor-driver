@@ -1,0 +1,7 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFFFFF"/> <!-- Warna putih -->
+    <corners android:radius="50dp"/>
+    <shadow
+        android:radius="4dp"
+        android:color="#40000000"/> <!-- Bayangan -->
+</shape>

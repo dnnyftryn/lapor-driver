@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <!-- Card Layout -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rounded_corner_bottom"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Inner Content -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp"
+            android:padding="24dp">
+
+            <!-- App Logo and Text -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="24dp">
+                    <!-- App Logo -->
+                    <ImageView
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:layout_alignParentStart="true"
+                        android:src="@drawable/ic_logo_placeholder"
+                        android:contentDescription="App Logo"
+                        android:layout_marginBottom="8dp" />
+
+                    <!-- Search Icon -->
+                    <ImageView
+                        android:id="@+id/iv_search_icon"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:gravity="end"
+                        android:layout_alignParentEnd="true"
+                        android:src="@drawable/ic_search"
+                        android:contentDescription="Search Icon"
+                        android:background="@drawable/bg_circle"
+                        android:padding="8dp" />
+
+                </RelativeLayout>
+                <!-- Text Information -->
+                <TextView
+                    android:id="@+id/tv_report_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/paragraph_1"
+                    android:text="Laporan Keluhan Kendaraan"
+                    android:layout_marginBottom="4dp" />
+
+                <TextView
+                    android:id="@+id/tv_user_fullname"
+                    style="@style/heading_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/danny_fitriyana" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

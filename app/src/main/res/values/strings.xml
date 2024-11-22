@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LaporDriver</string>
+    <string name="laporan_keluhan_kendaraan">Laporan Keluhan Kendaraan</string>
+    <string name="danny_fitriyana">Danny Fitriyana</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
